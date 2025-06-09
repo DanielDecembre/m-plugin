@@ -143,4 +143,12 @@ Create the following fields:
 ```
 
 ---
+---
 
+### Class Structure
+
+- **SIDDFlowAction** – Main entry point, handles Flow integration  
+- **ConversationAnalyzer** – NLP engine for objection detection  
+- **ConversationInsights** – Data model for analysis results  
+- **TaskGenerator** – Creates follow-up tasks with prioritization  
+- **SIDDFlowActionTest** – Comprehensive test coverage  
