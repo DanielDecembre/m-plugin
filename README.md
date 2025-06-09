@@ -120,3 +120,27 @@ Create the following fields:
 
 ### Core Components
 
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌────────────────────┐
+│   SIDD API      │    │  Apex Classes   │    │  Lightning Flow     │
+│                 │    │                 │    │                    │
+│ • Conversation  │◄──►│ • SIDDFlowAction│◄──►│ • User Interface    │
+│   Data Source   │    │ • Conversation  │    │ • Error Handling    │
+│ • Transcripts   │    │   Analyzer      │    │ • Results Display   │
+│ • Summaries     │    │ • Task Generator│    │                    │
+└─────────────────┘    └─────────────────┘    └────────────────────┘
+                                │
+                                ▼
+                       ┌────────────────────┐
+                       │ Salesforce Data     │
+                       │                     │
+                       │ • Lead Records      │
+                       │ • Custom Fields     │
+                       │ • Tasks             │
+                       │ • Analytics         │
+                       └────────────────────┘
+```
+
+---
+
