@@ -1,7 +1,7 @@
 # m-plugin
 Morgan and morgain plugin project
 
-# SIDD Conversation Intelligence Plugin 🚀
+# Salesforce Conversation Intelligence Plugin 🚀
 
 > Transform every legal consultation into conversion success with AI-powered conversation intelligence.
 
@@ -12,7 +12,7 @@ Morgan and morgain plugin project
 
 ## 🎯 What It Does
 
-The SIDD Plugin automatically analyzes legal consultation conversations and provides:
+The Salesforce Plugin automatically analyzes legal consultation conversations and provides:
 
 - **🔍 Objection Detection** - Identifies client concerns and resistance points
 - **💬 Tailored Rebuttals** - Generates personalized responses based on client profile
