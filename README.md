@@ -1,4 +1,4 @@
-# m-plugin
+# Morgan & Morgan - Clsr
 Morgan and morgain plugin project
 
 # Salesforce Conversation Intelligence Plugin 🚀
