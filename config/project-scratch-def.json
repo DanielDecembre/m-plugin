@@ -1,0 +1,13 @@
+{
+  "orgName": "Morgan & Morgan Conv Intelligence",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "LightningExperienceUser"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true
+    }
+  }
+}

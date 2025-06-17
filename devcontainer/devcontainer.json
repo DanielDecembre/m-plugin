@@ -1,0 +1,33 @@
+{
+  "name": "M&M Salesforce Development",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "11"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "salesforce.salesforcedx-vscode",
+        "salesforce.salesforcedx-vscode-apex",
+        "salesforce.salesforcedx-vscode-lightning",
+        "salesforce.salesforcedx-vscode-lwc",
+        "ms-vscode.vscode-json"
+      ],
+      "settings": {
+        "salesforcedx-vscode-core.telemetry.enabled": false,
+        "salesforcedx-vscode-core.experimental.deployRetrieve": true
+      }
+    }
+  },
+  "postCreateCommand": "npm install -g @salesforce/cli && sf --version",
+  "forwardPorts": [3000, 8080],
+  "portsAttributes": {
+    "3000": {
+      "label": "Local Development Server"
+    }
+  }
+}
